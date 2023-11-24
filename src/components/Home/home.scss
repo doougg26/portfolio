@@ -1,0 +1,32 @@
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main {
+    @include flex;
+
+
+
+    .ContainerConteudo {
+        @include flex;
+        flex-direction: column;
+        width: 35vw;
+        height: 70vh;
+
+        .SocialMediaNav {
+            @include flex;
+            width: 30vw;
+        }
+    }
+
+    .Illustration {
+        width: 40vw;
+        height: 70vh;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
