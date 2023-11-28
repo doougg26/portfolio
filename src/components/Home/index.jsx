@@ -6,7 +6,7 @@ import codeImg from "../../assets/img/pngwing.com (1).png"
 import Botao from "../Botao"
 export default function Home(){
     return(
-        <main>
+        <main className="MainHome">
         <section className="ContainerConteudo">
         <div className="TextContainer">
             <span>Olá,</span>

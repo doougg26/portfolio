@@ -2,7 +2,7 @@ import "./contato.scss"
 export default function Contato() {
     return (
         <>
-            <main>
+            <main className="MainContato">
             
                 <figure>
                     <img src="" alt="minha foto" />

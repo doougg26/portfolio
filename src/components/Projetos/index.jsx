@@ -1,7 +1,7 @@
 import "./projetos.scss"
 export default function Projetos(){
     return(
-        <><main>
+        <><main className="MainProjetos">
             <h1>Projesssssstos</h1>
         </main></>
     )

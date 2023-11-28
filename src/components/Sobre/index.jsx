@@ -1,8 +1,8 @@
 import "./sobre.scss"
 export default function Sobre() {
     return (<>
-        <main>
-            <section className="AboutContainer"
+        <main className="MainSobre">
+            <section className="SobreContainer"
             ><h1>Sobre Mim</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore assumenda, enim hic incidunt magni ab quisquam eos sed totam? Fugit minus officiis praesentium dolores ab voluptatem ipsam aut adipisci cupiditate?
                     Accusantium autem animi vero dolores quas fugit error iure assumenda quia rem id, et sapiente, neque at ipsa sint maiores ab. Repellat expedita maxime ipsam natus aliquam. In, maiores mollitia.
