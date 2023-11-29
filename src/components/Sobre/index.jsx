@@ -1,5 +1,11 @@
 import Botao from "../Botao"
 import "./sobre.scss"
+import HtmlIcon from "../../assets/img/html.png"
+import CssIcon from "../../assets/img/css.png"
+import JsIcon from "../../assets/img/js.png"
+import ReactIcon from "../../assets/img/react.png"
+import SassIcon from "../../assets/img/sass.png"
+import GithubIcon from "../../assets/img/git.png"
 export default function Sobre() {
     return (<>
         <main className="MainSobre">
@@ -14,12 +20,12 @@ export default function Sobre() {
             <section className="StackContainer">
                 <h2>Tecnnologias</h2>
                 <div className="Stack">
-                    <img src="" alt="html" />
-                    <img src="" alt="css" />
-                    <img src="" alt="js" />
-                    <img src="" alt="react" />
-                    <img src="" alt="sass" />
-                    <img src="" alt="git/github" />
+                    <img src={HtmlIcon} alt="html" />
+                    <img src={CssIcon} alt="css" />
+                    <img src={JsIcon} alt="js" />
+                    <img src={ReactIcon} alt="react" />
+                    <img src={SassIcon} alt="sass" />
+                    <img src={GithubIcon} alt="git/github" />
                 </div>
             </section>
         </main>

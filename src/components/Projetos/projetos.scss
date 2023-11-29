@@ -1,1 +1,35 @@
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.MainProjetos {
+    @include flex;
+
+    .ProjectsContainer {
+        @include flex;
+        width: 60vw;
+
+        .ConteudoProjetosContainer {
+            @include flex;
+            align-items: flex-start;
+
+            img {
+                width: 300px;
+                aspect-ratio: 16/9;
+                &hover{
+                    transform: scale(1.1)
+                }
+            }
+
+            .ConntainerBotao {
+                @include flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 150px;
+            }
+        }
+    }
+}
