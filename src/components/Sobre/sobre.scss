@@ -1,0 +1,27 @@
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MainSobre {
+    height: 70vh;
+    @include flex;
+
+    .SobreContainer {
+        @include flex;
+        flex-direction: column;
+        width: 50vw;
+        height: 40vh;
+    }
+
+    .StackContainer {
+        height: 40vh;    @include flex;
+        flex-direction: column;
+        .Stack {     
+            display: grid;
+            gap: 50px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}

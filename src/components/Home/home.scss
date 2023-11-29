@@ -6,14 +6,15 @@
 
 .MainHome {
     @include flex;
-
+    height: 70vh;
 
 
     .ContainerConteudo {
         @include flex;
         flex-direction: column;
         width: 35vw;
-        height: 70vh;
+        height: 30vh;
+        justify-content: space-between;
 
         .SocialMediaNav {
             @include flex;
@@ -23,7 +24,6 @@
 
     .Illustration {
         width: 40vw;
-        height: 70vh;
     }
 
     a {
