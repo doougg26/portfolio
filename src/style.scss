@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    
+
+    
+}
+html::-webkit-scrollbar {
+    display: none;
+}

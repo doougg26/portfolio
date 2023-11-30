@@ -5,20 +5,25 @@
 }
 
 .MainSobre {
-    height: 70vh;
     @include flex;
+    flex-wrap: wrap;
+    gap: 100px;
 
     .SobreContainer {
         @include flex;
         flex-direction: column;
         width: 50vw;
-        height: 40vh;
+        img {
+            height: 100px;
+        }
     }
 
     .StackContainer {
-        height: 40vh;    @include flex;
+        @include flex;
+
         flex-direction: column;
-        .Stack {     
+
+        .Stack {
             display: grid;
             gap: 50px;
             grid-template-columns: 1fr 1fr 1fr;

@@ -7,7 +7,7 @@
 .MainHome {
     @include flex;
     height: 70vh;
-
+    overflow-y: scroll;
 
     .ContainerConteudo {
         @include flex;
@@ -18,6 +18,12 @@
 
         .SocialMediaNav {
             @include flex;
+            width: 30vw;
+        }
+        .TextContainer{
+            @include flex;
+            text-align: center;
+            flex-direction: column;
             width: 30vw;
         }
     }
