@@ -3,7 +3,7 @@ import githubImg from "../../assets/img/github_5968896.png"
 import linkedinImg from "../../assets/img/linked-logo_4902396.png"
 import mailImg from "../../assets/img/mail_6769426 (3).png"
 import codeImg from "../../assets/img/pngwing.com (1).png"
-import Botao from "../Botao"
+import { BotaoHome } from "../Botao/BotaoPrimario"
 export default function Home(){
     return(
         <main className="MainHome">
@@ -12,7 +12,7 @@ export default function Home(){
             <span>Olá,</span>
             <h1>Eu sou o Douglas</h1>
             <span>Dev Front-end</span> 
-            <Botao texto="Saiba Mais"/>
+            <BotaoHome texto="Saiba Mais"/>
         </div> 
             
         <nav className="SocialMediaNav">

@@ -7,10 +7,16 @@
 
 .MainProjetos {
     @include flex;
+    background-color: #E0E1DD;
+    margin: 50px 0 100px;
+    h1{
+        font-size: 50px;
+    }
 
     .ProjectsContainer {
         @include flex;
         width: 60vw;
+        gap: 50px;
 
         .ConteudoProjetosContainer {
             @include flex;

@@ -1,5 +1,5 @@
 import "./projetos.scss"
-import Botao from "../Botao"
+import {  BotaoSecundario } from "../Botao/BotaoPrimario"
 import AdviceImg from "../../assets/img/advice1.jpg"
 import CalcImg from "../../assets/img/calculadora.png"
 import FantastikaImg from "../../assets/img/fantastika.png"
@@ -16,9 +16,9 @@ export default function Projetos(){
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quae vitae nesciunt! Praesentium modi molestias pariatur eum corporis quasi, possimus ipsa vero magni repellat necessitatibus qui doloremque veritatis quam error!
                     Quia sequi repellendus assumenda voluptatum facere sunt, voluptas placeat saepe, quidem amet aut omnis culpa. Ipsa voluptatem, ipsum necessitatibus architecto nihil, nisi explicabo pariatur tenetur, odio expedita distinctio nulla ipsam.</p>
                     <div className="ConntainerBotao">
-                    <Botao texto="Projeto Online"/>
-                    <Botao texto="Código"/></div>
-                </div>
+                    <BotaoSecundario texto="Projeto Online"/>
+                    <BotaoSecundario texto="Código"/></div>
+                </div>{/* 
                 <div className="ConteudoProjetosContainer">
                     <h2>projeto2</h2>
                     <img src={AdviceImg} alt="projeto2" />
@@ -54,7 +54,7 @@ export default function Projetos(){
                     <div className="ConntainerBotao">
                     <Botao texto="Projeto Online"/>
                     <Botao texto="Código"/></div>
-                </div>
+                </div> */}
 
             </section>
         </main></>

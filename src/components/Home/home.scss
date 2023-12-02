@@ -5,9 +5,9 @@
 }
 
 .MainHome {
+    background-color: #E0E1DD;
     @include flex;
-    height: 70vh;
-    overflow-y: scroll;
+height: 80vh;
 
     .ContainerConteudo {
         @include flex;
