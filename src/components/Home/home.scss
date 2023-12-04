@@ -5,31 +5,41 @@
 }
 
 .MainHome {
-    background-color: #E0E1DD;
     @include flex;
 height: 80vh;
-
+flex-wrap: wrap;
+gap: 50px;
+a{
+    color:#000;
+    text-decoration: none;
+    font-size: 30px;
+    &:visited{
+        color:#000;
+    }
+}
     .ContainerConteudo {
         @include flex;
         flex-direction: column;
         width: 35vw;
         height: 30vh;
         justify-content: space-between;
-
+        margin-top: 50px;
         .SocialMediaNav {
             @include flex;
-            width: 30vw;
+            width: 300px;
+            margin-top: 10px;
         }
         .TextContainer{
             @include flex;
             text-align: center;
             flex-direction: column;
             width: 30vw;
+            margin-top: 15px;
         }
     }
 
     .Illustration {
-        width: 40vw;
+        width: 300px;
     }
 
     a {

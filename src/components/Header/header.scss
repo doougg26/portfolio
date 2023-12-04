@@ -14,7 +14,6 @@
 header {
     .HeaderNavbar {
 
-        border-radius:0 0 5% 5%;
     .Menu{
         display: none;
         @media screen   and  (max-width:600px){
@@ -23,11 +22,11 @@ header {
             height: 50px;
             background-color: transparent;
             color: white;
+            border: 1px solid white;
         }
     }
 a{
     color:#000;
-
 text-decoration: none;
 font-size: 30px;
 &:visited{
@@ -36,8 +35,7 @@ font-size: 30px;
 }
 
         @include flex;
-       // @include backgroundPattern;
-       background-color: black;
+        background-color: black;
         justify-content: space-between;
         height: 80px;
 
@@ -48,7 +46,6 @@ font-size: 30px;
         .DefaultList {
             @include flex;
             align-items: flex-end;
-
             height: 80px;
             width: 40vw;
            color: #E0E1DD;
@@ -65,17 +62,29 @@ font-size: 30px;
         }
         .MenuList{
             @media screen   and  (max-width:600px){
+
+                background-color: #000;
+                border-radius: 10px;
+                position: relative;
+                top: 130px;
+                right: 115px;
+                list-style: none;
+                display: flex;
                 flex-direction: column;
-                height: 0vh;
-                align-items: flex-start;
+               
                 justify-content: space-between;
+                a{
+                    color: #fff;
+                }
                 li{
                     @media screen   and  (max-width:600px){
-                        display:initial;
-                       
-                        
+
+                       a:hover{
+                        color:#000
+                       }
+                    &:hover{    
                     background-color: #E0E1DD;
-                    border-radius: 10px;
+                    border-radius: 10px;}
                 }
             }
         }

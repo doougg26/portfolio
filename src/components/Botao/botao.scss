@@ -46,7 +46,7 @@
 }
 
 .BtnSobre {
-    --color: #00A97F;
+    --color: #000;
     padding: 0.8em 1.7em;
     background-color: transparent;
     border-radius: .3em;
@@ -86,7 +86,7 @@
         width: 410px;
        }
        &:hover {
-        color: rgb(10, 25, 30);
+        color: #fff;
        }
        &:active {
         filter: brightness(.8);
