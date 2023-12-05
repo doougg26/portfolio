@@ -17,7 +17,7 @@ export default function Sobre() {
             <img src={MyPhoto} alt="eu" />
                 <p>Olá! Sou Douglas, um desenvolvedor front-end especializado em React, HTML, CSS e JavaScript.  Sou Formado Técnico em informática e graduando em Análise de sistemas e desenvolvimento. Tenho uma sólida experiência em atendimento ao público, aliado de um bom relacionamento interpessoal, adaptabilidade e criatividade. Tenho uma paixão por criar interfaces de usuário interativas e responsivas que proporcionam uma experiência incrível aos usuários. Com minha experiência e conhecimento em desenvolvimento web, estou sempre em busca das melhores práticas de design e desenvolvimento para entrega.</p>
                 <Link to="/files/Currículo Douglas Corrêa Rodrigues (1).PDF" target="_blank" download>
-                    <BotaoHome texto="baixar curriculo"/></Link>
+                    <BotaoHome texto="Baixar Currículo"/></Link>
                     
                     </section>
             <section className="StackContainer">

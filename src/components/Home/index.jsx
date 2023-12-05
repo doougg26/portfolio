@@ -18,17 +18,17 @@ export default function Home(){
             
         <nav className="SocialMediaNav">
             <figure>
-                <a href="https://github.com/doougg26"><img src={githubImg} alt="GitHub" />
-                <figcaption>Github</figcaption></a>
+                <Link to="https://github.com/doougg26" target="_blank"><img src={githubImg} alt="GitHub" />
+                <figcaption>Github</figcaption></Link>
             </figure>
 
             <figure>
-                <a href="https://linkedin.com/in/dcorrea566/"><img src={linkedinImg} alt="LinkedIn" />
-                <figcaption>LinkedIn</figcaption></a>
+                <Link to="https://linkedin.com/in/dcorrea566/" target="_blank"><img src={linkedinImg} alt="LinkedIn" />
+                <figcaption>LinkedIn</figcaption></Link>
             </figure>
             <figure>
-                <a href="mailto:dcorrea566@gmail.com"><img src={mailImg} alt="Email" />
-                <figcaption>Email</figcaption></a>
+                <Link to="mailto:dcorrea566@gmail.com"><img src={mailImg} alt="Email" />
+                <figcaption>Email</figcaption></Link>
             </figure>
         </nav>
         </section>

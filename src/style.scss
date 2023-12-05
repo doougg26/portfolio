@@ -5,11 +5,20 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    
+   
+    font-size: clamp(0.9375rem, 0.8801rem + 0.3061vw, 1.125rem);
 
     
 }
 html::-webkit-scrollbar {
     display: none;
+}
+H1{
+    font-size: clamp(1.25rem, 1.0395rem + 1.1224vw, 1.9375rem);
+}
+H2{
+    font-size: clamp(1.125rem, 0.9145rem + 1.1224vw, 1.8125rem);
+}
+body{
+    background-color: rgb(196, 194, 194);
 }

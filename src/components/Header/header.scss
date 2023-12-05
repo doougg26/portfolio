@@ -3,16 +3,12 @@
     align-items: center;
     justify-content: space-around;
 }
-@mixin backgroundPattern{
-    background-color: #0D1B2A;
-    opacity: 0.8;
-    background-image:  linear-gradient(30deg, #778DA9 12%, transparent 12.5%, transparent 87%, #778DA9 87.5%, #778DA9), linear-gradient(150deg, #778DA9 12%, transparent 12.5%, transparent 87%, #778DA9 87.5%, #778DA9), linear-gradient(30deg, #778DA9 12%, transparent 12.5%, transparent 87%, #778DA9 87.5%, #778DA9), linear-gradient(150deg, #778DA9 12%, transparent 12.5%, transparent 87%, #778DA9 87.5%, #778DA9), linear-gradient(60deg, #778DA977 25%, transparent 25.5%, transparent 75%, #778DA977 75%, #778DA977), linear-gradient(60deg, #778DA977 25%, transparent 25.5%, transparent 75%, #778DA977 75%, #778DA977);
-    background-size: 80px 140px;
-    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
-    
-}
 header {
     .HeaderNavbar {
+        @include flex;
+        background-color: black;
+        justify-content: space-between;
+        height: 80px;
 
     .Menu{
         display: none;
@@ -33,12 +29,6 @@ font-size: 30px;
     color:#000;
 }
 }
-
-        @include flex;
-        background-color: black;
-        justify-content: space-between;
-        height: 80px;
-
         figure {
             padding: 5vw;
         }
@@ -48,12 +38,13 @@ font-size: 30px;
             align-items: flex-end;
             height: 80px;
             width: 40vw;
-           color: #E0E1DD;
             list-style: none;
             li{
-                color: #E0E1DD;
-                background-color: #E0E1DD;
-                
+                background-color: rgb(196, 194, 194);
+                border-radius: 5%;
+                a{
+                    font-size: clamp(1rem, 0.8278rem + 0.9184vw, 1.5625rem);
+                }
                     @media screen   and  (max-width:600px){
                         display:none;
                     }
@@ -66,8 +57,10 @@ font-size: 30px;
                 background-color: #000;
                 border-radius: 10px;
                 position: relative;
-                top: 130px;
-                right: 115px;
+                top: 100px;
+                right: 75px;
+                width: 200px;
+                text-align: right;
                 list-style: none;
                 display: flex;
                 flex-direction: column;

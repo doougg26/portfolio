@@ -20,6 +20,7 @@
         .ConteudoProjetosContainer {
             @include flex;
             align-items: flex-start;
+            width: 70vw;
 
             img {
                 width: 300px;
