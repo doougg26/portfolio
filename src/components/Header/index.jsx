@@ -28,7 +28,7 @@ export default function Header() {
                             <li><Link to="/projetos">Projetos</Link></li>
                         </ul> : null
                     }
-
+<h3> {'<D/>'} </h3>
                     <ul className="DefaultList">
                         <li>
                             <Link to="/">Home</Link>
