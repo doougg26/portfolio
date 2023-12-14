@@ -21,7 +21,7 @@ export default function Sobre() {
                     
                     </section>
             <section className="StackContainer">
-                <h2>Tecnologias</h2>
+                <h2>Competências</h2>
                 <div className="Stack">
                     <img src={HtmlIcon} alt="html" />
                     <img src={CssIcon} alt="css" />
